@@ -1,0 +1,146 @@
+body {
+/*  min-height: 2000px;*/
+  padding-top: 60px;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-default {
+  background-color: #eee;
+}
+.navbar .navbar-header img {
+  height: 50px;
+  padding-right: 10px
+}
+.navbar .navbar-header .navbar-brand {
+  margin-left: 20px;
+  color: #5e5e5e;
+}
+#contribute {
+  float: right;
+}
+.navbar-collapse.in {
+  overflow-y: visible;
+}
+.nav-tabs li a {
+  padding: 5px 10px;
+}
+.no-padding {
+  padding-right: 0;
+  padding-left: 0;
+}
+#tab-controls {
+  padding: 0;
+  float:right;
+}
+.navbar-nav > li > a {
+  padding: 6px 10px 5px 10px;
+}
+.underlined-sm {
+  border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .underlined-sm {
+      border-bottom: none;
+    }
+    .navbar-nav > li > a {
+      padding: 2px 10px;
+    }
+    hr {
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+}
+
+.float-left {
+  float:left;
+}
+.datetimepicker2 {
+  visibility: hidden;
+}
+.form-group label {
+  padding: 3px 10px;
+}
+.form-group a {
+  float: right;
+}
+.form-group a+a {
+  float: left;
+}
+.bottom-column
+{
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+}
+.restricted-width {
+  max-width: 250px;
+/*  display: inline;*/
+}
+.task-choice {
+  margin-bottom: 10px;
+}
+.js-task_title {
+/*  background-color: orange;*/
+  min-height:20px;
+}
+.js-task_date {
+/*  background-color: red;*/
+  min-height:20px;
+}
+
+.js-map {
+/*  background-color: cyan;*/
+  min-height:400px;
+  border-radius: 10px;
+}
+.js-progress_bars {
+  background-color: white;
+}
+.row + .row {
+  margin-top: 10px;
+}
+.js-buildings_id {
+/*  background-color: yellow;*/
+  min-height:20px;
+}
+.dc-chart .pie-slice {
+  fill: black;
+}
+.js-map_length {
+  min-height:100px;
+}
+.js-graph_area {
+  color: black;
+}
+.border-green {
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+}
+.border-cyan {
+  border: 2px solid darkturquoise;
+  border-radius: 10px;
+}
+.border-red {
+  border-top: 2px solid firebrick;
+  border-right: 2px solid firebrick;
+  border-left: 2px solid firebrick;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.border-red + .border-red{
+  border-top: none;
+  border-bottom: 2px solid firebrick;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.border-orange {
+  border: 2px solid orange;
+  border-radius: 10px;
+}
