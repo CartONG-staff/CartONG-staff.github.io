@@ -62,7 +62,7 @@ function getTask(taskID, startDate, tab) {
       createDashboard(task, startDate, tab);
     } else {
 
-      $.getJSON( "http://tasks.hotosm.org/project/"+ taskID +".json", function( task ) {
+      $.getJSON( "https://tasks.hotosm.org/project/"+ taskID +".json", function( task ) {
         if (task && task.geometry) {
           createDashboard(task, startDate, tab);
           if (availableStorage) {
